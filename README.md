@@ -29,25 +29,19 @@ All information in this section will be considered for project submission and ju
 
 Ensure your repository is public and submitted by **August 9, 2024, 23:59pm US ET**.
 
-Ensure your repository does not contain any personal or team tokens/access information to access backends. Ensure your repository does not contain any third-party intellectual property (logos, company names, copied literature, or code). Any resources used must be open source or appropriately referenced.
+Ensure your repository does not contain any personal or team tokens/access information to access backends. Ensure your repository does not contain any third party intellectual property (logos, company names, copied literature, or code). Any resources used must be open source or appropriately referenced.
 
 ### Team Information:
 Team Member 1:
- - Full Name: 
- - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx):
+ - Full Name: Mah Noor
+ - Womanium Program Enrollment ID: WQ24-lKsEGZqa9muencO
 
-
-Team Member 2:
- - Full Name: 
- - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx):
 
 
 ### Project Solution:
-_Include a comprehensive summary of all important information about your project solution here._
-All necessary code files and any additional information required to judge your project solution should be included in the repository. 
-
-### Project Presentation Deck:
-_Upload/ Link a 3min. presentation deck here._
-
-See project presentation guidelines [here](https://docs.google.com/document/d/13nWF8AxFAfFYTWEYPT3BpPdYkqtxxSAjmuXj_zcMh-E/edit?usp=sharing)
+I performed first four tasks of the project. In **task 1**, we were required to get a familiarity with PennyLane. The modules that we had to do were: “Introduction to Quantum Computing”, “Single-Qubit
+Gates” and “Circuits with Many Qubits”. In PennyLane, we have a define a device as a backend. We define the circuit as a function and this function should always return some measurement. We learned different types of measurements we can perform on quantum circuits.
+For task 2, we have to operate the variational classifier for two different sets. The first one is the parity test and the second one is the recognition of the first two classes of flowers in the famous Iris dataset. I have included Jupyter notebooks for both examples in the folder **task_2**. The general workflow is the same in both examples. In the first step, we define some method to map our classical data onto the quantum states. Then we define our quantum circuit that includes parametrized layers. After that, we define loss, cost function, and optimizer to train the model. At the end, we will perform measurements. 
+The **task 3** is related to Quanvolutional Neural Networks. It's a hybrid model. This model is used for processing images. For the circuit, we used an embedding layer, then a random circuit and finally the measurement. After that, we defined the convolution scheme. 
+In **task 4**, we have to create a QML model that should be able to predict sine values correctly. I used 20 points for training the data and 20 for testing the data. I used angle embedding to encode the data. Then I defined the circuit. After that, I did some classical post-processing that involved cost and loss functions. I realized that changing the step size of the optimizer significantly improves the model. 
 
